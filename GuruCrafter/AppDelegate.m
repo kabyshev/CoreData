@@ -17,7 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //[[DataManager sharedManager] generateAndAddStudents];
+    
+    [[DataManager sharedManager] generateAndAddStudents];
     [[DataManager sharedManager] showStudents];
     
     // Override point for customization after application launch.
